@@ -19,7 +19,7 @@ export default function Navbar() {
           href="/"
           className="flex gap-2 w-20 h-14 items-center self-center text-3xl font-black whitespace-nowrap text-primary-600 dark:text-primary-400 relative"
         >
-          <Image src="/Logos/andrew-logo.png" alt="Logo image" fill />
+          <Image src="/Logos/andrew-logo-bg.png" alt="Logo image" fill />
         </Link>
         <div className="relative inline-flex text-left md:order-2">
           <LanguageDropdown />
