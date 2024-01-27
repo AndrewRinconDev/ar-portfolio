@@ -4,9 +4,11 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import LanguageDropdown from "../LanguageDropdown/LanguageDropdown";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const { t } = useTranslation();
 
   const toggleNavbar = () => {
     setNavbarOpen((prev) => !prev);
@@ -64,7 +66,7 @@ export default function Navbar() {
                 href="#experience"
                 className="relative overflow-hidden z-10 p-2  before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-primary-500 before:backdrop-blur-lg before:rounded-lg  rounded-xl before:-z-10 before:transition-all before:duration-500 before:hover:w-full  transition-all duration-300 text-dark-700 hover:text-dark-900 dark:text-dark-200 dark:hover:text-dark-50"
               >
-                Experience
+                {t("navbar_option_experience")}
               </Link>
             </li>
             <li className="text-center">
@@ -72,7 +74,7 @@ export default function Navbar() {
                 className="relative overflow-hidden z-10 p-2  before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-primary-500 before:backdrop-blur-lg before:rounded-lg  rounded-xl before:-z-10 before:transition-all before:duration-500 before:hover:w-full  transition-all duration-300 text-dark-700 hover:text-dark-900 dark:text-dark-200 dark:hover:text-dark-50"
                 href="#projects"
               >
-                Projects
+                {t("navbar_option_projects")}
               </Link>
             </li>
             <li className="text-center">
@@ -80,7 +82,7 @@ export default function Navbar() {
                 className="relative overflow-hidden z-10 p-2  before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-primary-500 before:backdrop-blur-lg before:rounded-lg  rounded-xl before:-z-10 before:transition-all before:duration-500 before:hover:w-full  transition-all duration-300 text-dark-700 hover:text-dark-900 dark:text-dark-200 dark:hover:text-dark-50"
                 href="#about"
               >
-                About me
+                {t("navbar_option_about")}
               </Link>
             </li>
           </ul>
