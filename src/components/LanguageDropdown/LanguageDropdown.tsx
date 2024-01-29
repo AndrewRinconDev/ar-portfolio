@@ -17,7 +17,7 @@ export default function LanguageDropdown() {
   };
 
   return (
-    <div className="text-white rounded-md text-xs font-semibold bg-black/30 hover:bg-black/70 transition-all">
+    <div className="text-black dark:text-white rounded text-xs font-semibold bg-transparent hover:bg-gray-400/30 transition-all">
       <button
         type="button"
         onClick={toggleDropdown}
@@ -25,25 +25,15 @@ export default function LanguageDropdown() {
         aria-expanded="true"
         aria-haspopup="true"
       >
-        {i18n.language === "es" ? (
-          <>
-            <SpanishIcon />
-            Spanish
-          </>
-        ) : (
-          <>
-            <EnglishIcon />
-            English
-          </>
-        )}
+        {i18n.language === "es" ? <SpanishIcon /> : <EnglishIcon />}
         <ArrowDownIcon className={`${dropdownOpen && "rotate-180"}`} />
       </button>
       {dropdownOpen && (
-        <ul className="block bg-black/50 animate-fade-down animate-duration-200 pt-0.5 absolute w-full">
+        <ul className="block bg-gray-400/30 animate-fade-down animate-duration-200 pt-0.5 absolute w-fit rounded">
           <li>
             <button
               onClick={changeLanguage("es")}
-              className="hover:bg-black/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
+              className="hover:bg-gray-400/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
             >
               <SpanishIcon />
               Spanish
@@ -53,7 +43,7 @@ export default function LanguageDropdown() {
             <button
               type="button"
               onClick={changeLanguage("en")}
-              className="hover:bg-black/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
+              className="hover:bg-gray-400/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
             >
               <EnglishIcon />
               English

@@ -1,7 +1,7 @@
 export function ArrowDownIcon({ className }: { className?: string }) {
   return (
     <svg
-      className={`${className} -ml-1 h-5 w-5 text-white`}
+      className={`${className} -ml-1 h-5 w-5 text-black dark:text-white`}
       viewBox="0 0 20 20"
       fill="currentColor"
       aria-hidden="true"
