@@ -1,14 +1,15 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 export default function Banner() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative mx-auto container px-2 pt-12 lg:mb-0 mb-16 md:min-h-[85vh] lg:h-screen overflow-hidden lg:w-[740px] md:flex md:flex-col md:justify-center">
+    <section className="relative mx-auto container px-2 pt-16 md:pt-0 md:mb-0 mb-16 md:min-h-screen lg:h-screen overflow-hidden lg:w-[740px] md:flex md:flex-col md:justify-center">
       <div className="text-left md:flex md:flex-row-reverse md:justify-center md:items-center md:gap-x-4">
-        <div className="justify-center mb-6 w-24 h-24 md:w-36 md:h-36 relative lg:w-56 lg:h-56 mt-12">
+        <div className="justify-center mb-6 w-36 h-36 relative md:w-44 md:h-44 lg:w-56 lg:h-56 mt-12">
           <Image
             src="/images/profile-2.jpg"
             alt={t("banner_profile_image_label")}
@@ -27,14 +28,14 @@ export default function Banner() {
           <span className=" font-semibold inline-flex animate-background-shine bg-[linear-gradient(110deg,#64748b,45%,#0f172a,55%,#64748b)] dark:bg-[linear-gradient(110deg,#b6eaff,45%,#065074,55%,#b6eaff)] bg-[length:250%_100%] bg-clip-text text-xl text-transparent">
             {t("banner_subtitle")}
           </span>
-          <h2 className="lg:text-2xl mt-6 md:mt-10 text-dark-700 dark:text-dark-200 text-pretty">
+          <h2 className="lg:text-2xl md:text-xl mt-6 md:mt-10 text-dark-700 dark:text-dark-200 text-pretty">
             {t("banner_content")}
           </h2>
         </header>
       </div>
       <ul className="mt-10 flex flex-wrap gap-4 justify-start md:px-2 lg:px-0">
         <li>
-          <a
+          <Link
             href="https://www.linkedin.com/in/andres-felipe-rincon-mejia-68518a164/"
             className="rounded-full text-dark-800 dark:text-dark-200 border border-dark-300 dark:border-white/10 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 text-xs md:text-base md:px-4 bg-gradient-to-r from-slate-50 to-slate-100  dark:from-slate-800 dark:to-slate-950 hover:scale-105 transition-transform"
             target="_blank"
@@ -53,10 +54,10 @@ export default function Banner() {
               ></path>
             </svg>{" "}
             LinkedIn
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="https://github.com/AndrewRinconDev"
             className="rounded-full text-dark-800 dark:text-dark-200 border border-dark-300 dark:border-white/10 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 text-xs md:text-base md:px-4 bg-gradient-to-r from-slate-50 to-slate-100  dark:from-slate-800 dark:to-slate-950 hover:scale-105 transition-transform"
             target="_blank"
@@ -76,10 +77,10 @@ export default function Banner() {
               ></path>
             </svg>{" "}
             GitHub
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             href="mailto:andrew.rincon.94@gmail.com"
             className="rounded-full text-dark-800 dark:text-dark-200 border border-dark-300 dark:border-white/10 flex justify-center items-center gap-x-2 py-1 px-2 md:py-2 text-xs md:text-base md:px-4 bg-gradient-to-r from-slate-50 to-slate-100  dark:from-slate-800 dark:to-slate-950 hover:scale-105 transition-transform"
             target="_blank"
@@ -90,11 +91,11 @@ export default function Banner() {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v6"></path>
@@ -102,9 +103,31 @@ export default function Banner() {
               <path d="M15 19l2 2l4 -4"></path>
             </svg>{" "}
             andrew.rincon.94@gmail.com
-          </a>
+          </Link>
         </li>
       </ul>
+      <div className="absolute hidden md:flex bottom-4 w-full justify-center">
+        <Link
+          href="#experience"
+          className="md:flex gap-2 animate-bounce dark:text-white font-bold"
+        >
+          {t("navbar_option_experience") + " "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            className="w-5 h-5"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m0 0l6.75-6.75M12 19.5l-6.75-6.75"
+            ></path>
+          </svg>
+        </Link>
+      </div>
     </section>
   );
 }
