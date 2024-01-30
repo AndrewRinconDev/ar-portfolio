@@ -1,7 +1,6 @@
-import { MouseEventHandler, useState } from "react";
-import { EnglishIcon, SpanishIcon } from "../Icons/LanguageIcons";
-import { ArrowDownIcon } from "../Icons/Icons";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import Icon from "../Icon/Icon";
 
 export default function LanguageDropdown() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -25,17 +24,34 @@ export default function LanguageDropdown() {
         aria-expanded="true"
         aria-haspopup="true"
       >
-        {i18n.language === "es" ? <SpanishIcon /> : <EnglishIcon />}
-        <ArrowDownIcon className={`${dropdownOpen && "rotate-180"}`} />
+        <Icon
+          name={i18n.language === "es" ? "spanish" : "english"}
+          width={750}
+          height={500}
+          className="w-4 h-3"
+        />
+        <Icon
+          name="downArrow"
+          width={20}
+          height={20}
+          className={`${
+            dropdownOpen && "rotate-180"
+          } -ml-1 text-black dark:text-white`}
+        />
       </button>
       {dropdownOpen && (
-        <ul className="block bg-gray-400/30 animate-fade-down animate-duration-200 pt-0.5 absolute w-fit rounded">
+        <ul className="block bg-gray-400/30 animate-fade-down animate-duration-200 pt-0.5 absolute w-max rounded">
           <li>
             <button
               onClick={changeLanguage("es")}
               className="hover:bg-gray-400/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
             >
-              <SpanishIcon />
+              <Icon
+                className="w-4 h-auto"
+                name="spanish"
+                width={750}
+                height={500}
+              />
               Spanish
             </button>
           </li>
@@ -45,7 +61,12 @@ export default function LanguageDropdown() {
               onClick={changeLanguage("en")}
               className="hover:bg-gray-400/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
             >
-              <EnglishIcon />
+              <Icon
+                className="w-4 h-3"
+                name="english"
+                width={750}
+                height={500}
+              />
               English
             </button>
           </li>
