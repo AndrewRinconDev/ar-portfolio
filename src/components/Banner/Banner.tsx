@@ -6,9 +6,9 @@ export default function Banner() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative mx-auto container px-2 pt-12 lg:mb-0 mb-16 md:min-h-[85vh] lg:h-screen overflow-hidden lg:w-[740px] md:flex md:flex-col md:justify-center">
+    <section className="relative mx-auto container px-2 pt-16 lg:mb-0 mb-16 md:min-h-[85vh] lg:h-screen overflow-hidden lg:w-[740px] md:flex md:flex-col md:justify-center">
       <div className="text-left md:flex md:flex-row-reverse md:justify-center md:items-center md:gap-x-4">
-        <div className="justify-center mb-6 w-24 h-24 md:w-36 md:h-36 relative lg:w-56 lg:h-56 mt-12">
+        <div className="justify-center mb-6 w-36 h-36 relative md:w-44 md:h-44 lg:w-56 lg:h-56 mt-12">
           <Image
             src="/images/profile-2.jpg"
             alt={t("banner_profile_image_label")}
@@ -27,7 +27,7 @@ export default function Banner() {
           <span className=" font-semibold inline-flex animate-background-shine bg-[linear-gradient(110deg,#64748b,45%,#0f172a,55%,#64748b)] dark:bg-[linear-gradient(110deg,#b6eaff,45%,#065074,55%,#b6eaff)] bg-[length:250%_100%] bg-clip-text text-xl text-transparent">
             {t("banner_subtitle")}
           </span>
-          <h2 className="lg:text-2xl mt-6 md:mt-10 text-dark-700 dark:text-dark-200 text-pretty">
+          <h2 className="lg:text-2xl md:text-xl mt-6 md:mt-10 text-dark-700 dark:text-dark-200 text-pretty">
             {t("banner_content")}
           </h2>
         </header>
@@ -90,11 +90,11 @@ export default function Banner() {
               width="24"
               height="24"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="currentColor"
               fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <path d="M11 19h-6a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v6"></path>
