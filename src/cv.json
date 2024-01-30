@@ -1,0 +1,47 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "name_key": "banner_name_title",
+    "label": "Programmer",
+    "label_key": "banner_subtitle",
+    "summary_key": "banner_content",
+    "profile_image": "/images/profile-2.jpg",
+    "email": "andrew.rincon.94@gmail.com",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/andres-felipe-rincon-mejia-68518a164/",
+        "icon": {
+          "name": "linkedin",
+          "width": 256,
+          "height": 256
+        }
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/AndrewRinconDev",
+        "icon": {
+          "name": "github",
+          "width": 256,
+          "height": 250
+        }
+      },
+      {
+        "network": "andrew.rincon.94@gmail.com",
+        "url": "mailto:andrew.rincon.94@gmail.com",
+        "icon": {
+          "name": "email",
+          "width": 24,
+          "height": 24
+        }
+      }
+    ]
+  },
+  "experience": [],
+  "projects": [],
+  "myself": {
+    "education": [],
+    "skills": [],
+    "languages": []
+  }
+}
