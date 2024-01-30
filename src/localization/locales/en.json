@@ -1,4 +1,10 @@
 {
+  "banner_title": "Hello,",
+  "banner_name_title": " I'm Andrés",
+  "banner_subtitle": "Fullstack web developer",
+  "banner_button": "Watch my work",
+  "banner_content": "+5 years of experience in software development, I specialize in web development with technologies like React, angular, .Net, NodeJs.",
+  "banner_image_profile_label": "Profile image",
   "navbar_option_experience": "Experience",
   "navbar_option_projects": "Projects",
   "navbar_option_about": "About me",

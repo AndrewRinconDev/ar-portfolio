@@ -1,4 +1,9 @@
 {
+  "banner_title": "Hola,",
+  "banner_name_title": " soy Andrés",
+  "banner_subtitle": "Desarrollador web fullstack",
+  "banner_content": "+5 años de experiencia en el desarrollo de software, me especializo en el desarrollo web con tecnologías como React, angular, .Net, NodeJs.",
+  "banner_profile_image_label": "Imagen de perfil",
   "navbar_option_experience": "Experiencia",
   "navbar_option_projects": "Proyectos",
   "navbar_option_about": "Acerca de mí",
