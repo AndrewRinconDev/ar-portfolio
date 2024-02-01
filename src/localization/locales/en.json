@@ -9,5 +9,18 @@
   "navbar_option_projects": "Projects",
   "navbar_option_about": "About me",
   "navbar_label_es": "Spanish",
-  "navbar_label_en": "English"
+  "navbar_label_en": "English",
+  "experience_label": "Experience",
+  "experience_univision_position": "Software Engineer",
+  "experience_univision_startDate": "July 2021",
+  "experience_univision_endDate": "October 2023",
+  "experience_univision_content": "Development and implementation of functionalities based on user stories, in addition to correcting errors that appear on the ViX streaming platform, especially on web and TV platforms. I worked on the frontend mainly with React JS and Next JS, and GraphQL for the consumption and management of service data, unit tests with Jest and GitHub and SCRUM methodology.",
+  "experience_olimpia_position": "Software Developer",
+  "experience_olimpia_startDate": "September 2018",
+  "experience_olimpia_endDate": "July 2021",
+  "experience_olimpia_content": "Development and implementation of functionalities for reception, digital and electronic signature, custody of promissory notes and documents with digital certificates. Developing services with .Net, .Net Core 2.2, Entity Framework, JWT Token for authentication, AES encryption and with digital certificates and implementation of functionalities from the FrontEnd and consumption of the API services with angular JS and angular 12.",
+  "experience_sqa_position": "Software Developer",
+  "experience_sqa_startDate": "January 2018",
+  "experience_sqa_endDate": "July 2018",
+  "experience_sqa_content": "Application development for the integration of testing automation technologies for different platforms such as Selenium, Winium, Apium among others. Development of the integrator with Java FX for desktop application and JSF for web portal with MySql as database engine and styles with CSS."
 }

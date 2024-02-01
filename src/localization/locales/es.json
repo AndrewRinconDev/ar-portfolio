@@ -9,5 +9,18 @@
   "navbar_option_about": "Acerca de mí",
   "navbar_logo_label": "Logo image",
   "navbar_label_es": "Español",
-  "navbar_label_en": "Inglés"
+  "navbar_label_en": "Inglés",
+  "experience_label": "Experiencia",
+  "experience_univision_position": "Ingeniero de software",
+  "experience_univision_startDate": "Julio 2021",
+  "experience_univision_endDate": "Octubre 2023",
+  "experience_univision_content": "Desarrollo e implementación de funcionalidades basados en historias de usuario, además de corregir los fallos que aparecen en la plataforma de streaming ViX, especialmente en plataformas web y TV, trabajé el FrontEnd principalmente con React JS y GraphQL con Next JS para el consumo y gestión de datos de servicios, test unitarios con Jest, versionamiento con GitHub y metodología SCRUM.",
+  "experience_olimpia_position": "Desarrollador de software",
+  "experience_olimpia_startDate": "Septiembre 2018",
+  "experience_olimpia_endDate": "Julio 2021",
+  "experience_olimpia_content": "Desarrollo e implementación de funcionalidades para la recepción y firma digital y electrónica, custodia de pagarés y documentos con certificados digitales; Desarrollo de servicios con .Net, .Net Core, Entity Framework y manejo de base de datos SQL server, Token JWT para la autenticación, cifrados aes y con certificados digitales e implementación de funcionalidades desde el FrontEnd y consumo de los servicios API con angular JS y angular 12+.",
+  "experience_sqa_position": "Desarrollador de software",
+  "experience_sqa_startDate": "Enero 2018",
+  "experience_sqa_endDate": "Julio 2018",
+  "experience_sqa_content": "Desarrollo de aplicación para la integración de tecnologías de automatización de pruebas para diferentes plataformas tales como Selenium, Winium, Apium entre otros. Se realiza desarrollo del integrador con Java FX para aplicación de escritorio y JSF para portal web con MySQL como motor de bases de datos y estilos con CSS."
 }
