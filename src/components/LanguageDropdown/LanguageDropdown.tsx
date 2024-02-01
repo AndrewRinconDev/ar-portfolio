@@ -36,7 +36,7 @@ export default function LanguageDropdown() {
           height={20}
           className={`${
             dropdownOpen && "rotate-180"
-          } -ml-1 text-black dark:text-white`}
+          } -ml-1 text-black dark:invert`}
         />
       </button>
       {dropdownOpen && (
