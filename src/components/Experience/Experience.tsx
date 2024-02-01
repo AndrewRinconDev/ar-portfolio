@@ -14,7 +14,7 @@ export default function Experience() {
       <h2 className="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black dark:text-white/80">
         <Icon
           name="briefcase"
-          className="size-7 text-black dark:text-white"
+          className="size-7 text-black dark:invert"
           width={24}
           height={24}
         />
