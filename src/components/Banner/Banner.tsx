@@ -12,9 +12,9 @@ export default function Banner() {
     CV.basics;
 
   return (
-    <section className="relative mx-auto container px-2 pt-16 md:pt-0 mb-16 md:min-h-screen lg:h-screen overflow-hidden lg:w-[740px] md:flex md:flex-col md:justify-center">
+    <section className="relative mx-auto container pt-12 md:pt-0 md:min-h-[calc(100vh-70px)] lg:h-[calc(100vh-70px)] overflow-hidden md:max-w-[700px] lg:max-w-[800px] md:flex md:flex-col md:justify-center">
       <div className="text-left md:flex md:flex-row-reverse md:justify-center md:items-center md:gap-x-4">
-        <div className="justify-center mb-6 w-36 h-36 relative md:w-44 md:h-44 lg:w-56 lg:h-56 mt-12">
+        <div className="justify-center mb-6 w-36 h-36 relative md:w-44 md:h-44 lg:w-56 lg:h-56">
           <Image
             src={profile_image}
             alt={t("banner_profile_image_label")}
@@ -24,7 +24,7 @@ export default function Banner() {
           />
         </div>
         <header className="md:w-9/12 lg:w-8/12">
-          <h1 className="text-3xl font-bold lg:text-5xl text-dark-700 dark:text-dark-200">
+          <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl text-dark-700 dark:text-dark-200">
             {t("banner_title")}
             <span className=" text-blue-600 dark:text-blue-300">
               {t(name_key)}
@@ -38,7 +38,7 @@ export default function Banner() {
           </h2>
         </header>
       </div>
-      <ul className="mt-10 flex flex-wrap gap-4 justify-start md:px-2 lg:px-0">
+      <ul className="mt-6 md:mt-10 flex flex-wrap gap-4 justify-start lg:px-2">
         {profiles.map((profile) => (
           <li key={profile.network}>
             <Link
@@ -58,17 +58,16 @@ export default function Banner() {
           </li>
         ))}
       </ul>
-      <div className="absolute hidden md:flex bottom-4 w-full justify-center">
+      <div className="absolute hidden md:flex bottom-4 w-full justify-end">
         <Link
           href="#experience"
           className="md:flex gap-2 animate-bounce dark:text-white font-bold"
         >
-          {t("navbar_option_experience") + " "}
           <Icon
             name="downwardsArrow"
             width={24}
             height={24}
-            className="w-5 h-5"
+            className="w-8 h-8"
           />
         </Link>
       </div>

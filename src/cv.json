@@ -1,8 +1,8 @@
 {
   "basics": {
-    "name": "John Doe",
+    "name": "Andrés Rincón",
     "name_key": "banner_name_title",
-    "label": "Programmer",
+    "label": "Software Developer",
     "label_key": "banner_subtitle",
     "summary_key": "banner_content",
     "profile_image": "/images/profile-2.jpg",
@@ -37,7 +37,38 @@
       }
     ]
   },
-  "experience": [],
+  "experience": [
+    {
+      "position": "Software Engineer",
+      "position_key": "experience_univision_position",
+      "company": "Univision Colombia",
+      "startDate": "July 2021",
+      "startDate_key": "experience_univision_startDate",
+      "endDate": "October 2023",
+      "endDate_key": "experience_univision_endDate",
+      "summary_key": "experience_univision_content"
+    },
+    {
+      "position": "Software Developer",
+      "position_key": "experience_olimpia_position",
+      "company": "Olimpia IT",
+      "startDate": "September 2018",
+      "startDate_key": "experience_olimpia_startDate",
+      "endDate": "July 2021",
+      "endDate_key": "experience_olimpia_endDate",
+      "summary_key": "experience_olimpia_content"
+    },
+    {
+      "position": "Software Developer",
+      "position_key": "experience_sqa_position",
+      "company": "SQA",
+      "startDate": "January 2018",
+      "startDate_key": "experience_sqa_startDate",
+      "endDate": "July 2018",
+      "endDate_key": "experience_sqa_endDate",
+      "summary_key": "experience_sqa_content"
+    }
+  ],
   "projects": [],
   "myself": {
     "education": [],

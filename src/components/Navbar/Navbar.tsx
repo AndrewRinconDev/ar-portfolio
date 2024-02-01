@@ -16,7 +16,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="backdrop-blur-md bg-dark-200/30 dark:bg-dark-900/30 fixed w-full z-20 top-0 left-0">
+    <header className="backdrop-blur-md bg-dark-200/30 dark:bg-dark-900/30 w-full z-20 top-0 left-0">
       <nav className="container px-2 w-full md:w-[90%] max-w-[1000px] flex flex-wrap items-center justify-between mx-auto py-2 ">
         <Link
           href="/"
@@ -48,24 +48,21 @@ export default function Navbar() {
             <li className="text-center">
               <Link
                 href="#experience"
-                className="relative overflow-hidden z-10 p-2  before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-primary-500 before:backdrop-blur-lg before:rounded-lg  rounded-xl before:-z-10 before:transition-all before:duration-500 before:hover:w-full  transition-all duration-300 text-dark-700 hover:text-dark-900 dark:text-dark-200 dark:hover:text-dark-50"
+                className="relative overflow-hidden z-10 p-2"
               >
                 {t("navbar_option_experience")}
               </Link>
             </li>
             <li className="text-center">
               <Link
-                className="relative overflow-hidden z-10 p-2  before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-primary-500 before:backdrop-blur-lg before:rounded-lg  rounded-xl before:-z-10 before:transition-all before:duration-500 before:hover:w-full  transition-all duration-300 text-dark-700 hover:text-dark-900 dark:text-dark-200 dark:hover:text-dark-50"
+                className="relative overflow-hidden z-10 p-2"
                 href="#projects"
               >
                 {t("navbar_option_projects")}
               </Link>
             </li>
             <li className="text-center">
-              <Link
-                className="relative overflow-hidden z-10 p-2  before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-primary-500 before:backdrop-blur-lg before:rounded-lg  rounded-xl before:-z-10 before:transition-all before:duration-500 before:hover:w-full  transition-all duration-300 text-dark-700 hover:text-dark-900 dark:text-dark-200 dark:hover:text-dark-50"
-                href="#about"
-              >
+              <Link className="relative overflow-hidden z-10 p-2" href="#about">
                 {t("navbar_option_about")}
               </Link>
             </li>
