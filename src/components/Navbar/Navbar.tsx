@@ -29,10 +29,11 @@ export default function Navbar() {
           <div>
             <button
               onClick={toggleNavbar}
-              className="p-2 text-sm text-dark-700 dark:text-dark-200 rounded-lg md:hidden"
+              className="p-2 text-sm text-black dark:text-white rounded-lg md:hidden"
             >
               <Icon
                 name={navbarOpen ? "mobileMenu" : "close"}
+                className="size-6 text-black dark:invert"
                 width={24}
                 height={24}
               />
