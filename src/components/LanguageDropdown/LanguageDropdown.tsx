@@ -28,7 +28,7 @@ export default function LanguageDropdown() {
           name={i18n.language === "es" ? "spanish" : "english"}
           width={750}
           height={500}
-          className="w-4 h-3"
+          className="w-4 h-3 text-black dark:invert"
         />
         <Icon
           name="downArrow"
@@ -36,7 +36,7 @@ export default function LanguageDropdown() {
           height={20}
           className={`${
             dropdownOpen && "rotate-180"
-          } -ml-1 text-black dark:text-white`}
+          } -ml-1 text-black dark:invert`}
         />
       </button>
       {dropdownOpen && (
