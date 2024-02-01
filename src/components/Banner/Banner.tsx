@@ -51,7 +51,7 @@ export default function Banner() {
                 name={profile.icon.name as IconKeys}
                 width={profile.icon.width}
                 height={profile.icon.height}
-                className="size-4 md:size-6"
+                className="size-4 md:size-6 dark:text-white"
               />
               {` ${profile.network}`}
             </Link>

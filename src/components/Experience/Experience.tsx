@@ -11,8 +11,13 @@ export default function Experience() {
       id="experience"
       className="section undefined w-full mx-auto md:max-w-[700px] lg:max-w-[800px] pt-12 md:pt-0"
     >
-      <h2 className="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black/80 dark:text-white/80">
-        <Icon name="briefcase" className="size-7" width={24} height={24} />
+      <h2 className="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black dark:text-white/80">
+        <Icon
+          name="briefcase"
+          className="size-7 text-black dark:text-white"
+          width={24}
+          height={24}
+        />
         {t("experience_label")}
       </h2>
       <ol className="relative border-s border-gray-400 dark:border-gray-200 ml-3">
