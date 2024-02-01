@@ -48,7 +48,7 @@ export default function Navbar() {
         <div
           className={`${
             !navbarOpen ? "hidden" : ""
-          } block bg-gray-300/70 md:bg-transparent animate-fade-down animate-duration-200 absolute md:relative left-0 top-[70px] md:top-auto items-center justify-between w-full md:flex md:w-auto md:order-1 transition-all duration-500`}
+          } block bg-gray-300/70 dark:bg-black/70 md:bg-transparent animate-fade-down animate-duration-200 absolute md:relative left-0 top-[70px] md:top-auto items-center justify-between w-full md:flex md:w-auto md:order-1 transition-all duration-500`}
         >
           <ul className="flex flex-col gap-0 md:gap-6 pt-0 font-medium  md:flex-row  md:mt-0 md:border-0">
             {navbarLinks.map((link, index) => (
