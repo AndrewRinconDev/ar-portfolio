@@ -9,7 +9,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="section undefined w-full mx-auto md:max-w-[700px] lg:max-w-[800px] pt-12 md:pt-0"
+      className="section w-screen mx-auto md:max-w-[700px] lg:max-w-[800px] pt-12 md:pt-0"
     >
       <h2 className="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black dark:text-white">
         <Icon
