@@ -2,6 +2,7 @@
 import { useTranslation } from "react-i18next";
 import CV from "@/cv.json";
 import Icon from "../Icon/Icon";
+import { colors } from "@/utils/Constants";
 
 export default function Experience() {
   const { t } = useTranslation();
@@ -9,7 +10,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="section w-screen mx-auto md:max-w-[700px] lg:max-w-[800px] pt-12 md:pt-0"
+      className="w-full sm:w-[90%] lg:max-w-[850px] xl:max-w-[1000px] pt-12 md:pt-20 mx-auto px-4 md:px-0"
     >
       <h2 className="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-black dark:text-white">
         <Icon
@@ -24,13 +25,13 @@ export default function Experience() {
         {experience.map((job, index) => (
           <li className="mb-10 ms-4" key={`experience-${index}`}>
             <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-gray-700 dark:bg-slate-50"></div>
-            <h3 className="text-lg font-semibold text-blue-600 dark:text-sky-300/80 mt-2">
+            <h3 className={`text-lg font-semibold text-[${colors.darkBlue}] dark:text-sky-300/80 mt-2`}>
               {t(job.position_key)} - {job.company}
             </h3>
-            <time className="block mb-2 text-sm font-normal leading-none text-black-950/80 dark:text-black-200/90">
+            <time className="block mb-2 text-sm leading-none text-gray-600 font-semibold dark:text-black-200/90">
               {t(job.startDate_key)} - {t(job.endDate_key)}
             </time>
-            <p className="mb-4 text-base font-normal  dark:text-white text-pretty">
+            <p className="mb-4 text-base font-normal dark:text-white text-pretty text-justify">
               {t(job.summary_key)}
             </p>
           </li>

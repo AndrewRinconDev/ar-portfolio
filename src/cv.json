@@ -18,6 +18,15 @@
         }
       },
       {
+        "network": "Email",
+        "url": "mailto:andrew.rincon.94@gmail.com",
+        "icon": {
+          "name": "email",
+          "width": 24,
+          "height": 24
+        }
+      },
+      {
         "network": "Github",
         "url": "https://github.com/AndrewRinconDev",
         "icon": {
@@ -25,19 +34,20 @@
           "width": 256,
           "height": 250
         }
-      },
-      {
-        "network": "andrew.rincon.94@gmail.com",
-        "url": "mailto:andrew.rincon.94@gmail.com",
-        "icon": {
-          "name": "email",
-          "width": 24,
-          "height": 24
-        }
       }
     ]
   },
   "experience": [
+    {
+      "position": "Full Stack Developer",
+      "position_key": "experience_connect_position",
+      "company": "Connect Assistance",
+      "startDate": "February 2024",
+      "startDate_key": "experience_connect_startDate",
+      "endDate": "Current",
+      "endDate_key": "experience_connect_endDate",
+      "summary_key": "experience_connect_content"
+    },
     {
       "position": "Software Engineer",
       "position_key": "experience_univision_position",

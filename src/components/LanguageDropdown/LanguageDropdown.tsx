@@ -16,7 +16,7 @@ export default function LanguageDropdown() {
   };
 
   return (
-    <div className="text-black dark:text-white rounded text-xs font-semibold bg-transparent hover:bg-gray-400/30 transition-all">
+    <div className="text-white dark:text-white rounded text-xs font-semibold bg-transparent hover:bg-gray-400/20 transition-all">
       <button
         type="button"
         onClick={toggleDropdown}
@@ -40,11 +40,11 @@ export default function LanguageDropdown() {
         />
       </button>
       {dropdownOpen && (
-        <ul className="block bg-gray-400/30 animate-fade-down animate-duration-200 pt-0.5 absolute w-max rounded">
+        <ul className="block bg-black/70 animate-fade-down animate-duration-200 pt-0.5 absolute w-max rounded">
           <li>
             <button
               onClick={changeLanguage("es")}
-              className="hover:bg-gray-400/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
+              className="hover:bg-gray-400/30 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
             >
               <Icon
                 className="w-4 h-auto"
@@ -59,7 +59,7 @@ export default function LanguageDropdown() {
             <button
               type="button"
               onClick={changeLanguage("en")}
-              className="hover:bg-gray-400/70 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
+              className="hover:bg-gray-400/30 whitespace-no-wrap inline-flex justify-start items-center w-full gap-x-2 px-3 py-2"
             >
               <Icon
                 className="w-4 h-3"

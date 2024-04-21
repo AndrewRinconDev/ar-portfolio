@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Actor, Inter, Marcellus, Orbitron} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import I18nProvider from "@/localization/provider/I18nProvider";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Actor({ subsets: ["latin"], weight: "400"});
+const inter = Marcellus({ subsets: ["latin"], weight: "400"});
+// const inter = Orbitron({ subsets: ["latin"], weight: "400"});
+// const inter = Inter({ subsets: ["latin"], weight: "400"});
 
 export const metadata: Metadata = {
   title: "Create Next App",
