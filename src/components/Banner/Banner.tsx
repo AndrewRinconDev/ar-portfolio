@@ -8,7 +8,6 @@ import Icon from "../Icon/Icon";
 import { IconKeys } from "../Icon/IIcon";
 
 import "./Banner.css";
-import { colors } from "@/utils/Constants";
 
 export default function Banner() {
   const { t } = useTranslation();
@@ -31,7 +30,7 @@ export default function Banner() {
           <header className="md:w-9/12 text-white text-center md:text-left">
             <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl text-dark-700 dark:text-dark-200">
               {t("banner_title")}
-              <span className={`text-[${colors.lightBlue}] dark:text-blue-300`}>
+              <span className=" text-[#1ea1e8] dark:text-blue-300">
                 {t(name_key)}
               </span>
             </h1>

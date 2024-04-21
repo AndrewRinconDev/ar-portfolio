@@ -7,7 +7,6 @@ import LanguageDropdown from "../LanguageDropdown/LanguageDropdown";
 import { useTranslation } from "react-i18next";
 import Icon from "../Icon/Icon";
 import { navbarLinks } from "./NavbarLinks";
-import { colors } from "@/utils/Constants";
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -22,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className={`backdrop-blur-md bg-[${colors.darkPink}]/60 dark:bg-dark-900/30 w-full z-20 top-0 left-0 fixed`}>
+    <header className="backdrop-blur-md bg-[#0c030e]/60 dark:bg-dark-900/30 w-full z-20 top-0 left-0 fixed">
       <nav className="container px-2 w-full md:w-[90%] max-w-[850px] xl:max-w-[1000px] flex flex-wrap items-center justify-between mx-auto py-2 text-white">
         <Link
           href="/"

@@ -2,7 +2,6 @@
 import { useTranslation } from "react-i18next";
 import CV from "@/cv.json";
 import Icon from "../Icon/Icon";
-import { colors } from "@/utils/Constants";
 
 export default function Experience() {
   const { t } = useTranslation();
@@ -25,7 +24,7 @@ export default function Experience() {
         {experience.map((job, index) => (
           <li className="mb-10 ms-4" key={`experience-${index}`}>
             <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-gray-700 dark:bg-slate-50"></div>
-            <h3 className={`text-lg font-semibold text-[${colors.darkBlue}] dark:text-sky-300/80 mt-2`}>
+            <h3 className="text-lg font-semibold text-[c] dark:text-sky-300/80 mt-2">
               {t(job.position_key)} - {job.company}
             </h3>
             <time className="block mb-2 text-sm leading-none text-gray-600 font-semibold dark:text-black-200/90">
