@@ -24,8 +24,10 @@ export default function Projects() {
         </h2>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-8">
           {projects.map((project) => (
-            <div className="flex flex-col bg-white rounded-sm p-5 gap-2 transition-all duration-300 cursor-pointer shadow-lg shadow-gray-400
-            overflow-hidden hover:scale-[1.02]">
+            <div
+            className="flex flex-col bg-white rounded-sm p-5 gap-2 transition-all duration-300 cursor-pointer shadow-lg shadow-gray-400 overflow-hidden hover:scale-[1.02]"
+            key={`project-${project.name}`}
+            >
               <div className="aspect-video rounded-sm relative overflow-hidden">
                 <Image
                   src={project.image}
@@ -45,7 +47,7 @@ export default function Projects() {
               </Link>
               <div className="flex justify-center gap-3 align-middle flex-wrap">
                 {project.technologies.map((tech, index) => (
-                  <span className="min-h-7 min-w-7">
+                  <span className="min-h-7 min-w-7" key={`tech-${project.name}-${tech.name}-`}>
                     <Icon
                       key={`tech-${index}`}
                       name={tech.icon as IconKeys}
