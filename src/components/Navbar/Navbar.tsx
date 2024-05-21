@@ -25,9 +25,9 @@ export default function Navbar() {
       <nav className="container px-2 w-full md:w-[90%] max-w-[850px] xl:max-w-[1000px] flex flex-wrap items-center justify-between mx-auto py-2 text-white">
         <Link
           href="/"
-          className="flex gap-2 w-20 h-14 items-center self-center text-3xl font-black whitespace-nowrap text-primary-600 dark:text-primary-400 relative"
+          className="flex gap-2 w-14 h-12 items-center self-center text-3xl font-black whitespace-nowrap text-primary-600 dark:text-primary-400 relative p-2"
         >
-          <Image src="/Logos/andrew-logo-bg.png" alt="Logo image" fill />
+          <Image src="/Logos/AD_logo.png" alt="Logo image" fill />
         </Link>
         <div className="relative inline-flex text-left md:order-2">
           <LanguageDropdown />
