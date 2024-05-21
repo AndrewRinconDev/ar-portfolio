@@ -6,5 +6,6 @@ export default interface IIcon {
   name: IconKeys;
   width?: number;
   height?: number;
+  title?: string;
   className?: string;
 }

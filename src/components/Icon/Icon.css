@@ -1,0 +1,12 @@
+.image-container:hover:before {
+    border-radius: 4px;
+    content: attr(data-title);
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-top: -28px;
+    background: #000;
+    position: absolute;
+    z-index: 9999;
+    color: #fff;
+    width: max-content;
+  }

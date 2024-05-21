@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="backdrop-blur-md bg-[#0c030e]/60 dark:bg-dark-900/30 w-full z-20 top-0 left-0 fixed">
+    <header className="backdrop-blur-md bg-[#0c030e]/60 dark:bg-dark-900/30 w-full z-20 top-0 left-0 absolute">
       <nav className="container px-2 w-full md:w-[90%] max-w-[850px] xl:max-w-[1000px] flex flex-wrap items-center justify-between mx-auto py-2 text-white">
         <Link
           href="/"
@@ -46,9 +46,8 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className={`${
-            !navbarOpen ? "hidden" : ""
-          } block bg-black/50 dark:bg-black/70 md:bg-transparent animate-fade-down animate-duration-200 absolute md:relative left-0 top-[70px] md:top-auto items-center justify-between w-full md:flex md:w-auto md:order-1 transition-all duration-500`}
+          className={`${!navbarOpen ? "hidden" : ""
+            } block bg-black/50 dark:bg-black/70 md:bg-transparent animate-fade-down animate-duration-200 absolute md:relative left-0 top-[70px] md:top-auto items-center justify-between w-full md:flex md:w-auto md:order-1 transition-all duration-500`}
         >
           <ul className="flex flex-col gap-0 md:gap-6 pt-0 font-medium  md:flex-row  md:mt-0 md:border-0">
             {navbarLinks.map((link, index) => (
@@ -56,9 +55,10 @@ export default function Navbar() {
                 <Link
                   href={link.href}
                   onClick={closeNavbar}
-                  className="relative overflow-hidden z-10 p-2 border-b-2 border-b-pink-950/20 md:border-none hover:bg-gray-400/40 md:hover:bg-transparent md:hover:shadow-[0_2px_0px_rgb(101,31,82,1)] w-full block"
+                  className="p-2 group relative w-fit"
                 >
-                  {t(link.label_key)}
+                  <span>{t(link.label_key)}</span>
+                  <span className="absolute -bottom-1 left-0 w-0 transition-all duration-200 h-0.5 bg-[#651F52] group-hover:w-full"></span>
                 </Link>
               </li>
             ))}

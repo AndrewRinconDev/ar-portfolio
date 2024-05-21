@@ -26,5 +26,8 @@
   "experience_sqa_position": "Desarrollador de software",
   "experience_sqa_startDate": "Enero 2018",
   "experience_sqa_endDate": "Julio 2018",
-  "experience_sqa_content": "Desarrollo de aplicación para la integración de tecnologías de automatización de pruebas para diferentes plataformas tales como Selenium, Winium, Apium entre otros. Se realiza desarrollo del integrador con Java FX para aplicación de escritorio y JSF para portal web con MySQL como motor de bases de datos y estilos con CSS."
+  "experience_sqa_content": "Desarrollo de aplicación para la integración de tecnologías de automatización de pruebas para diferentes plataformas tales como Selenium, Winium, Apium entre otros. Se realiza desarrollo del integrador con Java FX para aplicación de escritorio y JSF para portal web con MySQL como motor de bases de datos y estilos con CSS.",
+  "projects_label": "Proyectos",
+  "project_ecommerce_name": "Comercio electrónico de ropa",
+  "project_ecommerce_description": "Plataforma de comercio electrónico desarrollada con React JS, Next JS, Tailwind CSS, Redux y fetch para el consumo de servicios que están construidos con .NetCore 6, Entity Framework, Auth0 y JWT para legislación y gestión de bases de datos SQL Server y MongoDB. versionado con Azure DevOps, implementaciones realizadas con Docker y Azure Web Services y uso de metodología SCRUM."
 }

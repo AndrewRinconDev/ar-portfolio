@@ -79,7 +79,116 @@
       "summary_key": "experience_sqa_content"
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "E-commerce",
+      "name_key": "project_ecommerce_name",
+      "description_key": "project_ecommerce_description",
+      "url": "/",
+      "image": "/images/bg/building_page.jpg",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "react"
+        },
+        {
+          "name": "Next.js",
+          "icon": "nextJS"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwind"
+        },
+        {
+          "name": "React",
+          "icon": "react"
+        },
+        {
+          "name": "Next.js",
+          "icon": "nextJS"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwind"
+        },
+        {
+          "name": "Storybook",
+          "icon": "storybook"
+        }
+      ]
+    },
+    {
+      "name": "E-commerce",
+      "name_key": "project_ecommerce_name",
+      "description_key": "project_ecommerce_description",
+      "url": "/",
+      "image": "/images/bg/white_hexagons.jpg",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "react"
+        },
+        {
+          "name": "Next.js",
+          "icon": "nextJS"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwind"
+        }
+      ]
+    },
+    {
+      "name": "E-commerce",
+      "name_key": "project_ecommerce_name",
+      "description_key": "project_ecommerce_description",
+      "url": "/",
+      "image": "/images/bg/building_page.jpg",
+      "technologies": [
+        {
+          "name": "Azure",
+          "icon": "azure"
+        },
+        {
+          "name": "React",
+          "icon": "react"
+        },
+        {
+          "name": "Next.js",
+          "icon": "nextJS"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwind"
+        },
+        {
+          "name": "Storybook",
+          "icon": "storybook"
+        }
+      ]
+    },
+    {
+      "name": "E-commerce",
+      "name_key": "project_ecommerce_name",
+      "description_key": "project_ecommerce_description",
+      "url": "/",
+      "image": "/images/bg/white_hexagons.jpg",
+      "technologies": [
+        {
+          "name": "Azure",
+          "icon": "azure"
+        },
+        {
+          "name": "Next.js",
+          "icon": "angular"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwind"
+        }
+      ]
+    }
+  ],
   "myself": {
     "education": [],
     "skills": [],
