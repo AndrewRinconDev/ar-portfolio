@@ -7,5 +7,6 @@ export default interface IIcon {
   width?: number;
   height?: number;
   title?: string;
+  color?: string;
   className?: string;
 }
