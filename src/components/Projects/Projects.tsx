@@ -58,7 +58,7 @@ export default function Projects() {
                 {project.technologies.map((tech, index) => (
                   <span
                     className="min-h-7 min-w-7"
-                    key={`tech-${project.name}-${tech.name}-`}
+                    key={`tech-${project.name}-${tech.name}-${index}`}
                   >
                     <Icon
                       key={`tech-${index}`}

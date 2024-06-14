@@ -1,0 +1,75 @@
+.profile-image-container {
+    height: 312px;
+    transform: scale(0.5);
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 400px;
+    margin-left: -5%;
+}
+
+.profile-image-container:hover {
+    transform: scale(0.58);
+}
+
+.profile-image-container:hover .img {
+    transform: translateY(0) scale(1.2);
+}
+
+.container-inner {
+    clip-path: polygon(55% 0%, 104% 32%, 95% 114%, 18% 120%, -100% 150%);
+    position: relative;
+    transform-origin: 50%;
+    top: -230px;
+}
+
+.bg-image {
+    background-image: linear-gradient(to right top, #1236d6, #302db8, #39259b, #3a1e80, #361967, #3e1a6a, #451b6e, #4d1c71, #682090, #8720af, #a81bce, #cc07ec);
+    clip-path: polygon(26% 5%, 73% 0%, 100% 34%, 77% 130%, 18% 97%, 1% 47%);
+    cursor: pointer;
+    height: 380px;
+    pointer-events: none;
+    position: absolute;
+    top: 140px;
+    width: 400px;
+}
+
+.img {
+    pointer-events: none;
+    position: relative;
+    transform: translateY(20px) scale(1.15);
+    transform-origin: 50% bottom;
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img1 {
+    left: -35px;
+    top: 142px;
+}
+
+@media screen and (min-width: 768px) {
+    .profile-image-container {
+        transform: scale(0.6);
+    }
+
+    .container-inner {
+        top: -170px;
+    }
+
+    .bg-image {
+        width: 420px;
+    }
+
+    .profile-image-container:hover {
+        transform: scale(0.65);
+    }
+
+    .profile-image-container:hover .img {
+        transform: translateY(0) scale(1.2);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .profile-image-container {
+        width: 420px;
+    }
+}

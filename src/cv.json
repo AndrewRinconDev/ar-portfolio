@@ -189,9 +189,150 @@
       ]
     }
   ],
-  "myself": {
+  "about": {
+    "title_key": "about_label",
+    "content_key": "about_content",
+    "image": "/images/profile-1.png",
+    "curriculum_key": "about_curriculum_path",
+    "stack": [
+      {
+        "category_key": "about_stack_frontend",
+        "technologies": [
+          {
+            "name": "React",
+            "icon": "react"
+          },
+          {
+            "name": "Next.js",
+            "icon": "nextJS"
+          },
+          {
+            "name": "Redux",
+            "icon": "redux"
+          },
+          {
+            "name": "Angular",
+            "icon": "angular"
+          },
+          {
+            "name": "Javascript",
+            "icon": "javascript"
+          },
+          {
+            "name": "Typescript",
+            "icon": "typescript"
+          },
+          {
+            "name": "Html5",
+            "icon": "html5"
+          },
+          {
+            "name": "Css3",
+            "icon": "css3"
+          },
+          {
+            "name": "Bootstrap",
+            "icon": "bootstrap"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "tailwind"
+          },
+          {
+            "name": "Storybook",
+            "icon": "storybook"
+          },
+          {
+            "name": "GraphQL",
+            "icon": "graphQL"
+          }
+        ]
+      },
+      {
+        "category_key": "about_stack_backend_databases",
+        "technologies": [
+          {
+            "name": "DotNet Core",
+            "icon": "dotNetCore"
+          },
+          {
+            "name": "Java",
+            "icon": "java"
+          },
+          {
+            "name": "Node.js",
+            "icon": "nodeJS"
+          },
+          {
+            "name": "SQL Server",
+            "icon": "sqlServer"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "mongoDB"
+          },
+          {
+            "name": "MySQL",
+            "icon": "mySql"
+          }
+        ]
+      },
+      {
+        "category_key": "about_stack_tools",
+        "technologies": [
+          {
+            "name": "Docker",
+            "icon": "docker"
+          },
+          {
+            "name": "Git",
+            "icon": "git"
+          },
+          {
+            "name": "GitHub",
+            "icon": "github"
+          },
+          {
+            "name": "Postman",
+            "icon": "postman"
+          },
+          {
+            "name": "Swagger",
+            "icon": "swagger"
+          },
+          {
+            "name": "Jira",
+            "icon": "jira"
+          },
+          {
+            "name": "Jest",
+            "icon": "jest"
+          }
+        ]
+      },
+      {
+        "category_key": "about_stack_clouds_devops",
+        "technologies": [
+          {
+            "name": "Azure",
+            "icon": "azure"
+          },
+          {
+            "name": "AWS",
+            "icon": "aws"
+          },
+          {
+            "name": "Azure Devops",
+            "icon": "azureDevOps"
+          },
+          {
+            "name": "Github Actions",
+            "icon": "githubActions"
+          }
+        ]
+      }
+    ],
     "education": [],
-    "skills": [],
     "languages": []
   }
 }

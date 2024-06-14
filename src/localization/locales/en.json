@@ -29,5 +29,12 @@
   "experience_sqa_content": "Application development for the integration of testing automation technologies for different platforms such as Selenium, Winium, Apium among others. Development of the integrator with Java FX for desktop application and JSF for web portal with MySql as database engine and styles with CSS.",
   "projects_label": "Projects",
   "project_ecommerce_name": "Clothing E-commerce",
-  "project_ecommerce_description": "E-commerce platform developed with React JS, Next JS, Tailwind CSS, Redux, and fetch for the consumption of services that are built with .NetCore 6, Entity Framework, Auth0 and JWT for legislation, and management of SQL Server and MongoDB databases, versioning with Azure DevOps, implementations carried out with Docker and Azure Web Services and use SCRUM methodology."
+  "project_ecommerce_description": "E-commerce platform developed with React JS, Next JS, Tailwind CSS, Redux, and fetch for the consumption of services that are built with .NetCore 6, Entity Framework, Auth0 and JWT for legislation, and management of SQL Server and MongoDB databases, versioning with Azure DevOps, implementations carried out with Docker and Azure Web Services and use SCRUM methodology.",
+  "about_label": "About me",
+  "about_content": "I am a software developer with more than 5 years of experience in the development of web and mobile applications, I specialize in the development of web applications with technologies like React, Angular, .Net, NodeJs, among others. I am passionate about software development and problem-solving, I like to learn new technologies and apply them in my projects, I consider myself a proactive, responsible, and committed person with my work.",
+  "about_curriculum_path": "/docs/Andres_CV_en.pdf",
+  "about_stack_frontend": "Frontend",
+  "about_stack_backend_databases": "Backend and Databases",
+  "about_stack_tools": "Tools",
+  "about_stack_clouds_devops": "Clouds and DevOps"
 }
