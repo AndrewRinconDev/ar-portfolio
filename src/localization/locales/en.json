@@ -36,5 +36,6 @@
   "about_stack_frontend": "Frontend",
   "about_stack_backend_databases": "Backend and Databases",
   "about_stack_tools": "Tools",
-  "about_stack_clouds_devops": "Clouds and DevOps"
+  "about_stack_clouds_devops": "Clouds and DevOps",
+  "stack_label": "Stack"
 }

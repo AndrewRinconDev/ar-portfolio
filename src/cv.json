@@ -281,10 +281,6 @@
         "category_key": "about_stack_tools",
         "technologies": [
           {
-            "name": "Docker",
-            "icon": "docker"
-          },
-          {
             "name": "Git",
             "icon": "git"
           },
@@ -314,12 +310,16 @@
         "category_key": "about_stack_clouds_devops",
         "technologies": [
           {
-            "name": "Azure",
-            "icon": "azure"
+            "name": "Docker",
+            "icon": "docker"
           },
           {
             "name": "AWS",
             "icon": "aws"
+          },
+          {
+            "name": "Azure",
+            "icon": "azure"
           },
           {
             "name": "Azure Devops",

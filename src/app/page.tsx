@@ -1,6 +1,7 @@
 import About from "@/components/About/About";
 import Banner from "@/components/Banner/Banner";
 import Experience from "@/components/Experience/Experience";
+import Footer from "@/components/Footer/Footer";
 import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Experience />
       <Projects />
       <About />
+      <Footer />
     </main>
   );
 }
