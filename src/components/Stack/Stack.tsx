@@ -27,7 +27,7 @@ function Stack() {
                 <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-8">
                     {stack.map((stackElement, index) => (
                         <div
-                            className="flex flex-col stack-card rounded-sm px-8 py-6 gap-6 transition-all duration-300 cursor-pointer hover:shadow-gray-400"
+                            className="flex flex-col stack-card rounded-sm px-4 md:px-8 py-6 gap-6 transition-all duration-300 cursor-pointer hover:shadow-gray-400"
                             key={`stack-${stackElement.category_key}-${index}`}
                         >
                             <h3 className="text-2xl font-semibold text-blue-300 text-center">
@@ -36,7 +36,7 @@ function Stack() {
                             <div className="flex justify-center gap-6 align-middle flex-wrap">
                                 {stackElement.technologies.map((tech, index) => (
                                     <span
-                                        className="tech-icon min-h-12 min-w-12"
+                                        className="tech-icon flex justify-center min-h-12 min-w-12"
                                         key={`tech-${tech}-${index}`}
                                     >
                                         <Icon

@@ -1,4 +1,4 @@
-.image-container:hover:before {
+.image-container:hover:after {
     border-radius: 4px;
     content: attr(data-title);
     font-size: 12px;

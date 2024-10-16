@@ -9,7 +9,7 @@ export default function Icon({ name, width, height, title, color, className }: I
   const coloredSvgString = color ? svgString.replaceAll(/ fill=(["'](?!none)).*?\1/g, ` fill="${color}"`) : svgString;
 
   return (
-    <div className={`${title && 'image-container'} max-h-fit relative my-auto`} data-title={title}>
+    <div className={`${title && 'image-container'} max-h-fit relative my-auto flex justify-center`} data-title={title}>
       <Image
         className={className}
         src={`data:image/svg+xml;base64,${btoa(coloredSvgString)}`}

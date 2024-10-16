@@ -215,12 +215,16 @@
             "icon": "angular"
           },
           {
-            "name": "Javascript",
-            "icon": "javascript"
+            "name": "GraphQL",
+            "icon": "graphQL"
           },
           {
             "name": "Typescript",
             "icon": "typescript"
+          },
+          {
+            "name": "Javascript",
+            "icon": "javascript"
           },
           {
             "name": "Html5",
@@ -241,10 +245,6 @@
           {
             "name": "Storybook",
             "icon": "storybook"
-          },
-          {
-            "name": "GraphQL",
-            "icon": "graphQL"
           }
         ]
       },
@@ -252,7 +252,7 @@
         "category_key": "about_stack_backend_databases",
         "technologies": [
           {
-            "name": "DotNet Core",
+            "name": ".Net Core",
             "icon": "dotNetCore"
           },
           {
@@ -274,6 +274,31 @@
           {
             "name": "MySQL",
             "icon": "mySql"
+          }
+        ]
+      },
+      {
+        "category_key": "about_stack_clouds_devops",
+        "technologies": [
+          {
+            "name": "Docker",
+            "icon": "docker"
+          },
+          {
+            "name": "AWS",
+            "icon": "aws"
+          },
+          {
+            "name": "Azure",
+            "icon": "azure"
+          },
+          {
+            "name": "Azure Devops",
+            "icon": "azureDevOps"
+          },
+          {
+            "name": "Github Actions",
+            "icon": "githubActions"
           }
         ]
       },
@@ -303,31 +328,6 @@
           {
             "name": "Jest",
             "icon": "jest"
-          }
-        ]
-      },
-      {
-        "category_key": "about_stack_clouds_devops",
-        "technologies": [
-          {
-            "name": "Docker",
-            "icon": "docker"
-          },
-          {
-            "name": "AWS",
-            "icon": "aws"
-          },
-          {
-            "name": "Azure",
-            "icon": "azure"
-          },
-          {
-            "name": "Azure Devops",
-            "icon": "azureDevOps"
-          },
-          {
-            "name": "Github Actions",
-            "icon": "githubActions"
           }
         ]
       }
