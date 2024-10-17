@@ -219,12 +219,12 @@
             "icon": "graphQL"
           },
           {
-            "name": "Jest",
-            "icon": "jest"
-          },
-          {
             "name": "Typescript",
             "icon": "typescript"
+          },
+          {
+            "name": "Jest",
+            "icon": "jest"
           },
           {
             "name": "Javascript",
@@ -247,6 +247,10 @@
       {
         "category_key": "about_stack_backend_databases",
         "technologies": [
+          {
+            "name": "C#",
+            "icon": "cSharp"
+          },
           {
             "name": ".Net Core",
             "icon": "dotNetCore"
