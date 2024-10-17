@@ -231,10 +231,6 @@
             "icon": "javascript"
           },
           {
-            "name": "Html5",
-            "icon": "html5"
-          },
-          {
             "name": "Css3",
             "icon": "css3"
           },
@@ -245,6 +241,10 @@
           {
             "name": "Tailwind CSS",
             "icon": "tailwind"
+          },
+          {
+            "name": "Storybook",
+            "icon": "storybook"
           }
         ]
       },
@@ -264,16 +264,24 @@
             "icon": "nodeJS"
           },
           {
+            "name": "Express",
+            "icon": "express"
+          },
+          {
             "name": "Java",
             "icon": "java"
+          },
+          {
+            "name": "Mocha",
+            "icon": "mocha"
           },
           {
             "name": "SQL Server",
             "icon": "sqlServer"
           },
           {
-            "name": "MongoDB",
-            "icon": "mongoDB"
+            "name": "Azure SQL DB",
+            "icon": "azureSqlDB"
           },
           {
             "name": "Sequelize",
@@ -282,6 +290,10 @@
           {
             "name": "MySQL",
             "icon": "mySql"
+          },
+          {
+            "name": "MongoDB",
+            "icon": "mongoDB"
           }
         ]
       },
@@ -330,8 +342,8 @@
             "icon": "swagger"
           },
           {
-            "name": "Storybook",
-            "icon": "storybook"
+            "name": "ESLint",
+            "icon": "esLint"
           },
           {
             "name": "Jira",
