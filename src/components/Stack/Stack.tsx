@@ -18,11 +18,11 @@ function Stack() {
                     <Icon
                         name="stack"
                         className="size-10 text-black dark:invert"
-                        color="#93c5fd "
+                        color="#bfdbfe"
                         width={36}
                         height={36}
                     />
-                    <span className="text-blue-300">{t("stack_label")}</span>
+                    <span className="text-blue-200 dark:text-blue-300">{t("stack_label")}</span>
                 </h2>
                 <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-8">
                     {stack.map((stackElement, index) => (
@@ -30,7 +30,7 @@ function Stack() {
                             className="flex flex-col stack-card rounded-sm px-4 md:px-8 py-6 gap-6 transition-all duration-300 cursor-pointer hover:shadow-gray-400"
                             key={`stack-${stackElement.category_key}-${index}`}
                         >
-                            <h3 className="text-2xl font-semibold text-blue-300 text-center">
+                            <h3 className="text-2xl font-semibold text-blue-200 text-center">
                                 {t(stackElement.category_key)}
                             </h3>
                             <div className="flex justify-center gap-6 align-middle flex-wrap">

@@ -199,8 +199,12 @@
         "category_key": "about_stack_frontend",
         "technologies": [
           {
-            "name": "React",
+            "name": "ReactJS",
             "icon": "react"
+          },
+          {
+            "name": "Angular",
+            "icon": "angular"
           },
           {
             "name": "Next.js",
@@ -211,12 +215,12 @@
             "icon": "redux"
           },
           {
-            "name": "Angular",
-            "icon": "angular"
-          },
-          {
             "name": "GraphQL",
             "icon": "graphQL"
+          },
+          {
+            "name": "Jest",
+            "icon": "jest"
           },
           {
             "name": "Typescript",
@@ -241,10 +245,6 @@
           {
             "name": "Tailwind CSS",
             "icon": "tailwind"
-          },
-          {
-            "name": "Storybook",
-            "icon": "storybook"
           }
         ]
       },
@@ -256,12 +256,16 @@
             "icon": "dotNetCore"
           },
           {
-            "name": "Java",
-            "icon": "java"
+            "name": "NestJS",
+            "icon": "nestJS"
           },
           {
             "name": "Node.js",
             "icon": "nodeJS"
+          },
+          {
+            "name": "Java",
+            "icon": "java"
           },
           {
             "name": "SQL Server",
@@ -270,6 +274,10 @@
           {
             "name": "MongoDB",
             "icon": "mongoDB"
+          },
+          {
+            "name": "Sequelize",
+            "icon": "sequelize"
           },
           {
             "name": "MySQL",
@@ -281,16 +289,16 @@
         "category_key": "about_stack_clouds_devops",
         "technologies": [
           {
-            "name": "Docker",
-            "icon": "docker"
+            "name": "Azure",
+            "icon": "azure"
           },
           {
             "name": "AWS",
             "icon": "aws"
           },
           {
-            "name": "Azure",
-            "icon": "azure"
+            "name": "Docker",
+            "icon": "docker"
           },
           {
             "name": "Azure Devops",
@@ -322,12 +330,12 @@
             "icon": "swagger"
           },
           {
-            "name": "Jira",
-            "icon": "jira"
+            "name": "Storybook",
+            "icon": "storybook"
           },
           {
-            "name": "Jest",
-            "icon": "jest"
+            "name": "Jira",
+            "icon": "jira"
           }
         ]
       }
