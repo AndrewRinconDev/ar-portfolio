@@ -231,16 +231,12 @@
             "icon": "javascript"
           },
           {
-            "name": "Css3",
-            "icon": "css3"
+            "name": "Tailwind CSS",
+            "icon": "tailwind"
           },
           {
             "name": "Bootstrap",
             "icon": "bootstrap"
-          },
-          {
-            "name": "Tailwind CSS",
-            "icon": "tailwind"
           },
           {
             "name": "Storybook",
