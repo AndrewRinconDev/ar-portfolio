@@ -284,8 +284,8 @@
             "icon": "azureSqlDB"
           },
           {
-            "name": "Sequelize",
-            "icon": "sequelize"
+            "name": "TypeORM",
+            "icon": "typeOrm"
           },
           {
             "name": "MySQL",
