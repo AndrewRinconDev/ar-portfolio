@@ -29,7 +29,7 @@ export default function Banner() {
             />
           </div>
           <header className="md:w-9/12 text-white text-center md:text-left">
-            <h1 className="flex flex-row gap-x-2 text-3xl font-bold md:text-4xl lg:text-5xl text-dark-700 dark:text-dark-200">
+            <h1 className="md:flex md:flex-row md:flex-wrap gap-x-2 text-3xl font-bold md:text-4xl lg:text-5xl text-dark-700 dark:text-dark-200">
               {t("banner_title")}
               <span className=" text-[#1ea1e8] dark:text-blue-300">
                 <TypewriterCustom

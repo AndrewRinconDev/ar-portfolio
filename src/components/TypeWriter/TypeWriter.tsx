@@ -7,8 +7,8 @@ function TypewriterCustom({ strings }: { strings: string[] }) {
     <Typewriter
       options={{
         strings: strings,
-        delay: 75,
-        deleteSpeed: 40,
+        delay: 90,
+        deleteSpeed: 45,
         autoStart: true,
         loop: true,
       }}
