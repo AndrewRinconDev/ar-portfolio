@@ -8,6 +8,7 @@ import Icon from "../Icon/Icon";
 import { IconKeys } from "../Icon/IIcon";
 
 import "./Banner.css";
+import TypewriterCustom from "../TypeWriter/TypeWriter";
 
 export default function Banner() {
   const { t } = useTranslation();
@@ -28,10 +29,16 @@ export default function Banner() {
             />
           </div>
           <header className="md:w-9/12 text-white text-center md:text-left">
-            <h1 className="text-3xl font-bold md:text-4xl lg:text-5xl text-dark-700 dark:text-dark-200">
+            <h1 className="flex flex-row gap-x-2 text-3xl font-bold md:text-4xl lg:text-5xl text-dark-700 dark:text-dark-200">
               {t("banner_title")}
               <span className=" text-[#1ea1e8] dark:text-blue-300">
-                {t(name_key)}
+                <TypewriterCustom
+                  strings={[
+                    t(`${name_key}_1`),
+                    t(`${name_key}_2`),
+                    t(`${name_key}_3`),
+                  ]}
+                />
               </span>
             </h1>
             <span className="font-semibold inline-flex animate-background-shine text-gray-400/90 bg-clip-text text-xl">

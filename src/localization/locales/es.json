@@ -1,6 +1,8 @@
 {
   "banner_title": "Hola,",
-  "banner_name_title": " soy Andrés",
+  "banner_name_title_1": " Soy Andrés",
+  "banner_name_title_2": " Soy Desarrollador Fullstack",
+  "banner_name_title_3": " Soy Ingeniero de Software",
   "banner_subtitle": "Desarrollador web fullstack",
   "banner_content": "+6 años de experiencia en el desarrollo de software, me especializo en el desarrollo web con tecnologías como React, angular, .Net, NodeJs.",
   "banner_profile_image_label": "Imagen de perfil",
