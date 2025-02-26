@@ -81,11 +81,44 @@
   ],
   "projects": [
     {
+      "name": "Insurlink",
+      "name_key": "project_insurlink_name",
+      "description_key": "project_insurlink_description",
+      "url": "https://insurlink.com.co/#/inicio",
+      "image": "/images/projects/insurlink.webp",
+      "technologies": [
+        {
+          "name": "Angular",
+          "icon": "angular"
+        },
+        {
+          "name": "Material UI",
+          "icon": "materialUI"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "bootstrap"
+        },
+        {
+          "name": "Python",
+          "icon": "python"
+        },
+        {
+          "name": "Flask",
+          "icon": "flask"
+        },
+        {
+          "name": "MySQL",
+          "icon": "mySql"
+        }
+      ]
+    },
+    {
       "name": "E-commerce",
       "name_key": "project_ecommerce_name",
       "description_key": "project_ecommerce_description",
       "url": "/",
-      "image": "/images/bg/building_page.jpg",
+      "image": "/images/bg/white_hexagons.webp",
       "technologies": [
         {
           "name": "React",
@@ -98,22 +131,6 @@
         {
           "name": "Tailwind CSS",
           "icon": "tailwind"
-        },
-        {
-          "name": "React",
-          "icon": "react"
-        },
-        {
-          "name": "Next.js",
-          "icon": "nextJS"
-        },
-        {
-          "name": "Tailwind CSS",
-          "icon": "tailwind"
-        },
-        {
-          "name": "Storybook",
-          "icon": "storybook"
         }
       ]
     },
@@ -122,28 +139,7 @@
       "name_key": "project_ecommerce_name",
       "description_key": "project_ecommerce_description",
       "url": "/",
-      "image": "/images/bg/white_hexagons.jpg",
-      "technologies": [
-        {
-          "name": "React",
-          "icon": "react"
-        },
-        {
-          "name": "Next.js",
-          "icon": "nextJS"
-        },
-        {
-          "name": "Tailwind CSS",
-          "icon": "tailwind"
-        }
-      ]
-    },
-    {
-      "name": "E-commerce",
-      "name_key": "project_ecommerce_name",
-      "description_key": "project_ecommerce_description",
-      "url": "/",
-      "image": "/images/bg/building_page.jpg",
+      "image": "/images/bg/building_page.webp",
       "technologies": [
         {
           "name": "Azure",
@@ -172,7 +168,7 @@
       "name_key": "project_ecommerce_name",
       "description_key": "project_ecommerce_description",
       "url": "/",
-      "image": "/images/bg/white_hexagons.jpg",
+      "image": "/images/bg/white_hexagons.webp",
       "technologies": [
         {
           "name": "Azure",
@@ -256,16 +252,20 @@
             "icon": "dotNetCore"
           },
           {
+            "name": "Python",
+            "icon": "python"
+          },
+          {
+            "name": "Flask",
+            "icon": "flask"
+          },
+          {
             "name": "NestJS",
             "icon": "nestJS"
           },
           {
             "name": "Node.js",
             "icon": "nodeJS"
-          },
-          {
-            "name": "Express",
-            "icon": "express"
           },
           {
             "name": "Java",
@@ -284,16 +284,12 @@
             "icon": "azureSqlDB"
           },
           {
-            "name": "TypeORM",
-            "icon": "typeOrm"
+            "name": "MongoDB",
+            "icon": "mongoDB"
           },
           {
             "name": "MySQL",
             "icon": "mySql"
-          },
-          {
-            "name": "MongoDB",
-            "icon": "mongoDB"
           }
         ]
       },
