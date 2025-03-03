@@ -85,6 +85,7 @@
       "name_key": "project_insurlink_name",
       "description_key": "project_insurlink_description",
       "url": "https://insurlink.com.co/#/inicio",
+      "githubUrl": "https://github.com/AndrewRinconDev/insurlink-website",
       "image": "/images/projects/insurlink.webp",
       "technologies": [
         {
@@ -114,11 +115,33 @@
       ]
     },
     {
-      "name": "E-commerce",
-      "name_key": "project_ecommerce_name",
-      "description_key": "project_ecommerce_description",
-      "url": "/",
-      "image": "/images/bg/white_hexagons.webp",
+      "name": "Iron Slug",
+      "name_key": "project_iron_slug_name",
+      "description_key": "project_iron_slug_description",
+      "url": "https://iron-slug.netlify.app/",
+      "githubUrl": "https://github.com/AndrewRinconDev/IronSlug-Unity",
+      "image": "/images/projects/iron-slug.webp",
+      "technologies": [
+        {
+          "name": "Unity",
+          "icon": "unity"
+        },
+        {
+          "name": "C#",
+          "icon": "cSharp"
+        },
+        {
+          "name": "CSS",
+          "icon": "css3"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "name_key": "project_portfolio_name",
+      "description_key": "project_portfolio_description",
+      "url": "https://ar-portfolio-nu.vercel.app/",
+      "image": "/images/projects/portfolio.webp",
       "technologies": [
         {
           "name": "React",
@@ -131,6 +154,10 @@
         {
           "name": "Tailwind CSS",
           "icon": "tailwind"
+        },
+        {
+          "name": "i18next",
+          "icon": "i18next"
         }
       ]
     },
@@ -139,35 +166,7 @@
       "name_key": "project_ecommerce_name",
       "description_key": "project_ecommerce_description",
       "url": "/",
-      "image": "/images/bg/building_page.webp",
-      "technologies": [
-        {
-          "name": "Azure",
-          "icon": "azure"
-        },
-        {
-          "name": "React",
-          "icon": "react"
-        },
-        {
-          "name": "Next.js",
-          "icon": "nextJS"
-        },
-        {
-          "name": "Tailwind CSS",
-          "icon": "tailwind"
-        },
-        {
-          "name": "Storybook",
-          "icon": "storybook"
-        }
-      ]
-    },
-    {
-      "name": "E-commerce",
-      "name_key": "project_ecommerce_name",
-      "description_key": "project_ecommerce_description",
-      "url": "/",
+      "githubUrl": "/",
       "image": "/images/bg/white_hexagons.webp",
       "technologies": [
         {
@@ -217,6 +216,10 @@
           {
             "name": "Typescript",
             "icon": "typescript"
+          },
+          {
+            "name": "Unity",
+            "icon": "unity"
           },
           {
             "name": "Jest",

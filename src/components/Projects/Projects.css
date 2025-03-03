@@ -23,3 +23,20 @@
   border-radius: 0.25rem;
   transition: all 0.3s;
 }
+
+.project-card .icon:hover {
+  transform: scale(1.1);
+}
+
+.project-card .icon:hover:after {
+  border-radius: 4px;
+  content: attr(data-title);
+  font-size: 12px;
+  padding: 0 8px;
+  margin-top: -50px;
+  background: #000;
+  position: absolute;
+  z-index: 9999;
+  color: #fff;
+  width: max-content;
+}

@@ -28,10 +28,12 @@ export default function Projects() {
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Link
-              key={`project-${project.name}-${index}`}
               href={project.url}
+              data-title="Demo"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex align-middle items-center gap-1 icon"
+              key={`project-${project.name}-${index}`}
             >
               <div className="project-card">
                 <div className="aspect-video rounded-sm relative overflow-hidden">
@@ -45,10 +47,10 @@ export default function Projects() {
                 </div>
                 <div
                   rel="noopener noreferrer"
-                  className="text-lg mx-auto font-semibold text-center text-[#08107d] dark:text-sky-300/80 group relative w-fit"
+                  className="text-lg mx-auto font-semibold text-center text-[#08107d] dark:text-sky-300/80 flex gap-2 group relative w-fit"
                 >
-                  <span className=" flex align-middle gap-3">
-                    {t(project.name_key)}
+                  {/* <div className="flex align-middle items-center group gap-2 relative"> */}
+                    <span>{t(project.name_key)}</span>
                     <Icon
                       name="openLink"
                       className="size-4 text-black dark:invert"
@@ -56,9 +58,9 @@ export default function Projects() {
                       height={14}
                       color="#08107d"
                     />
-                  </span>
-                  <span className="absolute -bottom-1 left-1/2 w-0 transition-all duration-200 h-0.5 bg-[#08107d] group-hover:w-3/6"></span>
-                  <span className="absolute -bottom-1 right-1/2 w-0 transition-all duration-200 h-0.5 bg-[#08107d] group-hover:w-3/6"></span>
+                    <span className="absolute -bottom-1 left-1/2 w-0 transition-all duration-200 h-0.5 bg-[#08107d] group-hover:w-3/6"></span>
+                    <span className="absolute -bottom-1 right-1/2 w-0 transition-all duration-200 h-0.5 bg-[#08107d] group-hover:w-3/6"></span>
+
                 </div>
                 <div className="flex justify-center gap-3 align-middle flex-wrap">
                   {project.technologies.map((tech, index) => (
