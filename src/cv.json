@@ -81,6 +81,59 @@
   ],
   "projects": [
     {
+      "name": "Netflix Clone",
+      "name_key": "project_netflix_clone_name",
+      "description_key": "project_netflix_clone_description",
+      "url": "https://netclone-ar.netlify.app/",
+      "githubUrl": "https://github.com/AndrewRinconDev/netflix-clone",
+      
+      "image": "/images/projects/netflix-clone.png",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "react"
+        },
+        {
+          "name": "Next.js",
+          "icon": "nextJS"
+        },
+        {
+          "name": "GraphQL",
+          "icon": "graphQL"
+        },
+        {
+          "name": "Typescript",
+          "icon": "typescript"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwind"
+        }
+      ]
+    },
+    {
+      "name": "Iron Slug",
+      "name_key": "project_iron_slug_name",
+      "description_key": "project_iron_slug_description",
+      "url": "https://iron-slug.netlify.app/",
+      "githubUrl": "https://github.com/AndrewRinconDev/IronSlug-Unity",
+      "image": "/images/projects/iron-slug.webp",
+      "technologies": [
+        {
+          "name": "Unity",
+          "icon": "unity"
+        },
+        {
+          "name": "C#",
+          "icon": "cSharp"
+        },
+        {
+          "name": "CSS",
+          "icon": "css3"
+        }
+      ]
+    },
+    {
       "name": "Insurlink",
       "name_key": "project_insurlink_name",
       "description_key": "project_insurlink_description",
@@ -115,28 +168,6 @@
       ]
     },
     {
-      "name": "Iron Slug",
-      "name_key": "project_iron_slug_name",
-      "description_key": "project_iron_slug_description",
-      "url": "https://iron-slug.netlify.app/",
-      "githubUrl": "https://github.com/AndrewRinconDev/IronSlug-Unity",
-      "image": "/images/projects/iron-slug.webp",
-      "technologies": [
-        {
-          "name": "Unity",
-          "icon": "unity"
-        },
-        {
-          "name": "C#",
-          "icon": "cSharp"
-        },
-        {
-          "name": "CSS",
-          "icon": "css3"
-        }
-      ]
-    },
-    {
       "name": "Portfolio",
       "name_key": "project_portfolio_name",
       "description_key": "project_portfolio_description",
@@ -158,28 +189,6 @@
         {
           "name": "i18next",
           "icon": "i18next"
-        }
-      ]
-    },
-    {
-      "name": "E-commerce",
-      "name_key": "project_ecommerce_name",
-      "description_key": "project_ecommerce_description",
-      "url": "/",
-      "githubUrl": "/",
-      "image": "/images/bg/white_hexagons.webp",
-      "technologies": [
-        {
-          "name": "Azure",
-          "icon": "azure"
-        },
-        {
-          "name": "Next.js",
-          "icon": "angular"
-        },
-        {
-          "name": "Tailwind CSS",
-          "icon": "tailwind"
         }
       ]
     }
