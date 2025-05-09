@@ -84,8 +84,8 @@
       "name": "Netflix Clone",
       "name_key": "project_netflix_clone_name",
       "description_key": "project_netflix_clone_description",
-      "url": "https://netclone-ar.netlify.app/",
-      "githubUrl": "https://github.com/AndrewRinconDev/netflix-clone",
+      "url": "https://netflix-clone-nextjs-one.vercel.app/",
+      "githubUrl": "https://github.com/AndrewRinconDev/netflix-clone-nextjs",
       
       "image": "/images/projects/netflix-clone.png",
       "technologies": [

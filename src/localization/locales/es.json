@@ -31,7 +31,7 @@
   "experience_sqa_content": "Desarrollo de aplicación para la integración de tecnologías de automatización de pruebas para diferentes plataformas tales como Selenium, Winium, Apium entre otros. Se realiza desarrollo del integrador con Java FX para aplicación de escritorio y JSF para portal web con MySQL como motor de bases de datos y estilos con CSS.",
   "projects_label": "Proyectos",
   "project_netflix_clone_name": "Clon Netflix",
-  "project_netflix_clone_description": "Clon de Netflix desarrollado con React JS, Next JS, GraphQL y Apollo Client usando Server Side Rendering (SSR) para realizar los fetch y cache de los contenidos de los videos, además de Tailwind CSS para los estilos y finalmente el consumo de un servicio demo construido en Datastax y autenticación con Firebase, y desplegado en Netlify para el CI/CD.",
+  "project_netflix_clone_description": "Clon de Netflix desarrollado con React JS V19, Next JS V15, GraphQL y Apollo Client usando Server Side Rendering (SSR) y LazyLoading para realizar los fetch y cache de los contenidos de los videos, además de Tailwind CSS para los estilos y finalmente el consumo de un servicio demo construido en Datastax y autenticación con Firebase, y desplegado en Vercel.",
   "project_iron_slug_name": "Iron Slug - Juego",
   "project_iron_slug_description": "Juego de computadora desarrollado con Unity 2D, C#, los sprites, animaciones y escenarios descargados del clásico juego Metal Slug X. El juego tiene un personaje principal que es un mercenario que tiene que pasar por diferentes niveles con vista lateral y recolectar muertes para poder avanzar al siguiente nivel. Los detalles finales de la página se hicieron con HTML y CSS.",
   "project_insurlink_name": "Insurlink",
